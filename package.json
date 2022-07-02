@@ -13,10 +13,17 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@mikro-orm/cli": "^5.2.1",
+    "@mikro-orm/core": "^5.2.1",
+    "@mikro-orm/migrations": "^5.2.1",
+    "@mikro-orm/mysql": "^5.2.1",
+    "@types/node": "^18.0.0",
+    "mysql": "^2.18.1",
     "reflect-metadata": "^0.1.13",
     "ts-node": "^10.8.1",
+    "type-graphql": "^1.1.1",
     "typeorm": "^0.3.7",
-    "typescript": "^4.7.4"
+    "typescript": "^4.5.4"
   },
   "devDependencies": {
     "nodemon": "^2.0.18"
